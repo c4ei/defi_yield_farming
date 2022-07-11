@@ -58,9 +58,9 @@ Here is the application software architecture work-flow:
 
 - **Node.js**
 
-      sudo curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
-      nvm install 12.18.3
-      node -v
+sudo curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
+nvm install 12.18.3
+node -v
 
 - **Truffle**
 
@@ -79,7 +79,7 @@ Here is the application software architecture work-flow:
 - Deploy smart contracts to the Ethereum blockchain
 
       truffle migrate --reset
-      
+truffle migrate --reset --network=c4ei
 - Deploy and run the front-end application
 
       npm start run
@@ -87,7 +87,7 @@ Here is the application software architecture work-flow:
 - Run the scripts to issue tokens
 
       truffle exec scripts/issue-tokens.js
-
+truffle exec scripts/issue-tokens.js --network=c4ei
 Demo of the DApp with the screenshots can be found on [this wiki page](https://github.com/ahmetozlu/defi_yield_farming/wiki/Demo-of-the-DApp).
 
 ## Citation
@@ -109,3 +109,12 @@ Ahmet Özlü
 ## License
 This system is available under the MIT license. See the LICENSE file for more info.
 
+
+
+
+
+mDAI : 0xAadd256B48C06001e832FCef881b1d2F1690addb
+DappToken : 0xD46C5E7b2A46CA0BA08CD499296894445c7bc786
+TokenFarm : 0x83c68d5A65131848e6906BA41e0d291b6db89e81
+
+truffle exec scripts/issue-tokens.js --network=c4ei

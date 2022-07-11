@@ -1,0 +1,97 @@
+dev@ubuntu:~/www/farm.c4ei.net$ truffle migrate --reset --network=c4ei
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+
+Starting migrations...
+======================
+> Network name:    'c4ei'
+> Network id:      21004
+> Block gas limit: 8000000 (0x7a1200)
+
+
+1_initial_migration.js
+======================
+
+   Replacing 'Migrations'
+   ----------------------
+   > transaction hash:    0xbcab2759bb2e516e6c6d336985df6eca47c9037c1843900db26954e50988d142
+   > Blocks: 0            Seconds: 0
+   > contract address:    0x9e420C17df2B10a9c287421b73E106f33E0f576d
+   > block number:        573643
+   > block timestamp:     1657520524
+   > account:             0x0fF2D1eFd7A57B7562b2bf27F3f37899dB27F4a5
+   > balance:             99889.482253881000000001
+   > gas used:            225237 (0x36fd5)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00450474 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.00450474 ETH
+
+
+2_deploy_contracts.js
+=====================
+
+   Deploying 'DaiToken'
+   --------------------
+   > transaction hash:    0x2b476fa34fbd7b417ae242670d55b27a71cc50175dbaeaafbfb18d2ba25dddad
+   > Blocks: 0            Seconds: 0
+   > contract address:    0xAadd256B48C06001e832FCef881b1d2F1690addb
+   > block number:        573645
+   > block timestamp:     1657520529
+   > account:             0x0fF2D1eFd7A57B7562b2bf27F3f37899dB27F4a5
+   > balance:             99889.466537741000000001
+   > gas used:            743444 (0xb5814)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.01486888 ETH
+
+
+   Deploying 'DappToken'
+   ---------------------
+   > transaction hash:    0xa7b31b87dda9d037e4e52d15f282cc867806a97585eee425a1c5d2da3d4d185d
+   > Blocks: 0            Seconds: 0
+   > contract address:    0xD46C5E7b2A46CA0BA08CD499296894445c7bc786
+   > block number:        573647
+   > block timestamp:     1657520532
+   > account:             0x0fF2D1eFd7A57B7562b2bf27F3f37899dB27F4a5
+   > balance:             99889.451669821000000001
+   > gas used:            743396 (0xb57e4)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.01486792 ETH
+
+
+   Deploying 'TokenFarm'
+   ---------------------
+   > transaction hash:    0x916923d5a2f2a685715625cab19d4245fd7b7eff0ddd08bd66c0dfe8dedf96cb
+   > Blocks: 0            Seconds: 0
+   > contract address:    0x83c68d5A65131848e6906BA41e0d291b6db89e81
+   > block number:        573648
+   > block timestamp:     1657520534
+   > account:             0x0fF2D1eFd7A57B7562b2bf27F3f37899dB27F4a5
+   > balance:             99889.434099301000000001
+   > gas used:            878526 (0xd67be)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.01757052 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.04730732 ETH
+
+
+Summary
+=======
+> Total deployments:   4
+> Final cost:          0.05181206 ETH

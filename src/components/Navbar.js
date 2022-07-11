@@ -6,9 +6,16 @@ class Navbar extends Component {
   render() {
     return (
       <nav className="navbar navbar-dark fixed-top bg-danger flex-md-nowrap p-0 shadow">
+        <ul className="navbar-nav px-3">
+          <li className="navbar-brand col-sm-3 col-md-2 mr-0">
+            <img src={farmer} width="30" height="30" className="d-inline-block align-top" alt=""/>
+          &nbsp; <b> C4EI Farming </b>
+          </li>
+        </ul>
+
         <a
         className="nav-item text-nowrap d-none d-sm-none d-sm-block"
-        href="https://github.com/ahmetozlu"
+        href="https://exp.c4ei.net"
         target="_blank"
         rel="noopener noreferrer"
         >
@@ -17,12 +24,7 @@ class Navbar extends Component {
           </small>          
         </a>
 
-        <ul className="navbar-nav px-3">
-          <li className="navbar-brand col-sm-3 col-md-2 mr-0">
-            <img src={farmer} width="30" height="30" className="d-inline-block align-top" alt=""/>
-          &nbsp; <b> DApp Yield Farming </b>
-          </li>
-        </ul>
+
       </nav>
     );
   }
